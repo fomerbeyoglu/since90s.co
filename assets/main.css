@@ -1,0 +1,26 @@
+a,abbr,acronym,address,applet,b,big,blockquote,body,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul,var{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}*{box-sizing:border-box}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+
+body {
+	background:#14191e url(bg.jpg) center center fixed;
+	background-size: cover;
+	color: #252525;
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+
+.coming {
+	background:url(logo.png) center no-repeat;
+	background-size:contain;
+	width:100%;
+	height:100%;
+	margin:0 auto 0 auto;
+	min-height:470px;
+	}
+	
+h1 {
+	visibility:hidden
+	}
+
+@media screen and (min-height:550px) {.coming {margin-top:80px;}}
